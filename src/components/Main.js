@@ -1,5 +1,6 @@
-import Container from "../containers/Container";
+import MainLayout from "../containers/MainLayout";
+import AppRoutes from "../routes/AppRoutes";
 
-const Main = () => <Container />
-
+const Main = () => <AppRoutes />
+    
 export default Main;

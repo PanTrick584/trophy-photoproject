@@ -1,10 +1,9 @@
-import { Section } from "../styled/styledSection"
-import StartPageMenu from "../components/StartPage/StartPageMenu"
+import { SectionWrapper } from "../styled/SectionWrapper"
 
 const StartPage = () => {
-    return <Section>
-                <StartPageMenu />
-            </Section>
+    return <SectionWrapper>
+                <h2>HOME</h2>
+            </SectionWrapper>
 }
 
 export default StartPage
